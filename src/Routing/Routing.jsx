@@ -7,14 +7,32 @@ import Health from "../Pages/Health/Health";
 import Home from "../Pages/Home/Home";
 import Politics from "../Pages/Politics/Politics";
 const Routing = () => {
+  const navData = [
+    {
+      label: "Home",
+      url: "/",
+    },
+    {
+      label: "Politics",
+      url: "/politics",
+    },
+    {
+      label: "Business",
+      url: "/business",
+    },
+    {
+      label: "Health",
+      url: "/health",
+    },
+  ];
   return (
     <>
-    <TopNav/>
-    
-    <BottomNav />
+      <TopNav />
+
+      <BottomNav navData={navData} />
 
       <Routes>
-        <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/politics" element={<Politics />} />
         <Route path="/business" element={<Business />} />
         <Route path="/health" element={<Health />} />

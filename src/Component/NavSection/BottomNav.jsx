@@ -1,18 +1,18 @@
-import React from 'react'
+import React from "react";
 import "./BottomNav.css";
-function BottomNav() {
+import { NavLink } from "react-router-dom";
+function BottomNav({ navData }) {
   return (
-    <div className="BottomNav-Container">
-      
-        <div>HOME</div>
-        <div>BUSINESS</div>
-        <div>CATEGORIES</div>
-        <div>CONTACT</div>
-        <div>MORE</div>
-        
-    </div>
-
-  )
+    <>
+      <div className="BottomNav-Container">
+        {navData.map((each, index) => (
+          <NavLink className={"navLinkClass"} to={each.url}>
+            {each.label}
+          </NavLink>
+        ))}
+      </div>
+    </>
+  );
 }
 
-export default BottomNav
+export default BottomNav;
