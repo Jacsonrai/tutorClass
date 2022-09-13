@@ -1,0 +1,19 @@
+.appContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+  align-items: center;
+}
+span{
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+  padding: 0.2em;
+  font-size: 3em;
+  border: 1px solid black;
+}
+button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 3em;
+}
