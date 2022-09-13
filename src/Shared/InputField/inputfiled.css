@@ -3,4 +3,14 @@
     font-size: 1.2em;
     border-radius: 0.2em;
     margin-right: 0.2em;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+    
+}
+.top-nav-container input[type=text]{
+    padding: 7px;
+    border-radius: 10em;
+    height: 2em;
+    
 }
