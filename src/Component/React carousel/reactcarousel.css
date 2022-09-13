@@ -1,0 +1,21 @@
+.imageTagsCarousel {
+  width: 30em;
+  height: 20em;
+
+}
+
+.informationDetails{
+   position: relative; 
+ 
+}
+.titleContainer{
+    position: absolute;
+    top: 0;
+    left: 34em;
+}
+.descriptionContainer{
+    width: 30em;
+    position: absolute;
+    top: 2em;
+    left: 34em;
+}
