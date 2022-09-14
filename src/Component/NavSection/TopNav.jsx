@@ -8,7 +8,7 @@ const TopNav = () => {
     <div className="top-nav-container">
       <div className="top-main-container">
         <div className="logoContainer">
-          <h2 className="logoText">My Logo</h2>
+          <h2 className="logoText">Well Read</h2>
         </div>
         <div className="search-container">
           <div className="input-search">
