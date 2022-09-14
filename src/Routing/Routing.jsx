@@ -6,6 +6,7 @@ import Business from "../Pages/Business/Business";
 import Health from "../Pages/Health/Health";
 import Home from "../Pages/Home/Home";
 import Politics from "../Pages/Politics/Politics";
+import User from "../Pages/User/User";
 const Routing = () => {
   const navData = [
     {
@@ -24,6 +25,10 @@ const Routing = () => {
       label: "Health",
       url: "/health",
     },
+    {
+      label: "User",
+      url: "/user",
+    },
   ];
   return (
     <>
@@ -36,6 +41,7 @@ const Routing = () => {
         <Route path="/politics" element={<Politics />} />
         <Route path="/business" element={<Business />} />
         <Route path="/health" element={<Health />} />
+        <Route path="/user" element={<User/>} />
       </Routes>
     </>
   );

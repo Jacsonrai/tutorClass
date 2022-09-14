@@ -1,0 +1,9 @@
+.politicsImage{
+    width: 10em;
+}
+.politicsDetailsContainer{
+    display: flex;
+}
+.politicsDescriptionsContainer{
+    width: 20em;
+}
