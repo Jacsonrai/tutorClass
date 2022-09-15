@@ -3,9 +3,29 @@ import ButtonWithIcon from "../../Shared/ButtonWithIcon";
 import "./TopNav.css";
 import { FiSearch } from "react-icons/fi";
 import InputField from "../../Shared/InputField/InputField";
+import BottomNav from "./BottomNav";
 const TopNav = () => {
+  const navData = [
+    {
+      label: "Home",
+      url: "/Home",
+    },
+    {
+      label: "Politics",
+      url: "/politics",
+    },
+    {
+      label: "Business",
+      url: "/business",
+    },
+    {
+      label: "Health",
+      url: "/health",
+    },
+  ];
   return (
-    <div className="top-nav-container">
+    <div className="navigator-container">
+      <div className="top-nav-container">
       <div className="top-main-container">
         <div className="logoContainer">
           <h2 className="logoText">Well Read</h2>
@@ -22,6 +42,11 @@ const TopNav = () => {
         </div>
       </div>
     </div>
+    <div className="bottom-nav-bar">
+          <BottomNav navData={navData} />
+        </div>
+    </div>
+  
   );
 };
 export default TopNav;

@@ -1,29 +1,13 @@
-.BottomNav-Container{
-    display: flex;
-    margin-top: 2em;
-    gap: 6em;
-    margin-left: 0%;
-    margin-right: 0%;
+.BottomNav-Container {
+  display: flex;
+  justify-content: center;
+  margin-right: 2em;
+  margin-top: 2em;
+  gap: 10em;
 
-}
-
-
-.BottomNav-Container{
-    position: relative;
-    
-}
-.main-bottomContainer{
-    position: absolute;
-    left: 16%;
-
+  
 
 }
 .navLinkClass{
-    padding: 1em;
-    color: gray;
-    font-size: 20px;
     text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
-
