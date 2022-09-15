@@ -7,10 +7,13 @@ const Home = () => {
     <div className="Homecontainer">
       <div className="maincontiner">
         <div className="leftcontainer">
+          <label>Politics</label>
           <Politics />
         </div>
         <div className="rightcontainer">
+          <label>Business</label>
           <Bussiness />
+
         </div>
       </div>
     </div>
