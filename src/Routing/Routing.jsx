@@ -11,7 +11,7 @@ import Navigation from "../Component/NavSection/Navigation";
 const Routing = () => {
   return (
     <>
-    <TopNav/>
+      <TopNav />
 
       <Routes>
         <Route path="/Home" element={<Home />} />
