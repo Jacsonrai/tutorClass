@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:30em;
+    gap: 30em;
+    padding-top: 2em;
 }
 .search-container{
     display: flex;
@@ -10,7 +11,8 @@
     
  }
  .logoText{
-    font-family:Garamond serif ;
+    display: flex;
+    font-family: Garamond serif ;
     font-weight: lighter;
  }
     
