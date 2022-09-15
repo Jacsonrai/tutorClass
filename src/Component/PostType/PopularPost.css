@@ -1,0 +1,58 @@
+.popularMainContainer{
+
+   display: flex;
+   gap: 5em;
+   margin-left: 4em;
+   padding-top: 5em;  
+
+}
+.headingLabelContainer{
+    font-size:0.8em;
+
+}
+.h1PopularContainer{
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+.popularPostContainer{
+
+    margin-right: 2em;
+    justify-content: center;  
+}
+.descriptionLabel{
+    text-align: justify;
+
+}
+.trendPost{
+    text-decoration: underline;
+    font-size: 2em;
+    margin-right: 3em;
+ 
+}
+.headingContainer{
+   
+    justify-content: center;
+    font-size: 2em;
+}
+.descriptionContainer{
+    width: 40em;
+    
+
+}
+    
+
+.trendingContianer{
+    margin-left: 0em;
+}
+.newsContainer{
+    display: flex;
+    gap: 1.5em;
+}
+.imageContainer{
+    font-size: 4em;
+    border-radius: 2em;
+}
+.newsImageDescription{
+    padding: 4em;
+    font-size: 1.5em;
+}

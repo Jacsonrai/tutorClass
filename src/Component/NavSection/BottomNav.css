@@ -1,3 +1,4 @@
+
 .BottomNav-Container {
   display: flex;
   justify-content: center;
@@ -10,4 +11,5 @@
 }
 .navLinkClass{
     text-decoration: none;
+
 }
