@@ -6,6 +6,7 @@ import { GetPost } from "../../Api/Method/method";
 const User = () => {
   const [user, setUser] = useState();
   console.log("user", user);
+  
   useEffect(() => {
     const response = getUser();
     setUser(response);
