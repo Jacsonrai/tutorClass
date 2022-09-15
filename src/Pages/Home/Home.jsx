@@ -8,25 +8,21 @@ const data =[
 
 {
 image:image1,
-imagelabel: "Dhankuta",
-
+imagelabel: "IMAGE 1 ",
+details:"image details here",
 
 },
 
 
 {
   image: image2,
-  imagelabel: "Dhankuta",
+  imagelabel: "IMAGE 2",
+  details:"image details here",
+
   
   
   },
-  // {
-  //   name: "sanjog rai",
-  //   address: "Dhankuta",
-    
-    
-  //   },
-
+  
 ]
 
   return (

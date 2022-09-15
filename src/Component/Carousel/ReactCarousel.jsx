@@ -32,8 +32,17 @@ const ReactCarousel=({datafromcarousel=[]}) =>{
 <img src={each.image} className="imagefromCarousel"/>
 
     </figure>
+<div className='title'>
+    <h3>{each?.imagelabel}</h3>
 
 
+
+</div>
+       <div className='DescriptionContainer'>
+        <p>{each?.details}</p>
+
+
+       </div>
         </div>
 
 
