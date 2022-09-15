@@ -1,8 +1,15 @@
-.BottomNav-Container{
-    display: flex;
-    justify-content: center;
-    margin-top: 2em;
-    gap: 2em;
-    
-    
+
+.BottomNav-Container {
+  display: flex;
+  justify-content: center;
+  margin-right: 2em;
+  margin-top: 2em;
+  gap: 10em;
+
+  
+
+}
+.navLinkClass{
+    text-decoration: none;
+
 }
