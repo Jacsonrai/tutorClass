@@ -1,15 +1,17 @@
 import React from "react";
-import './home.css';
-import Politics from "../../Component/Politics/Politics";
-import Bussiness from "../../Component/Bussiness/Bussiness";
+import "./home.css";
+
 import PopularPost from "../../Component/PostType/PopularPost";
+
+import BusinessAndpolitcis from "../../Component/BusinessAndPolitics/BusinessAndpolitcis";
+import { politicData } from "../../DummyData/DummyData";
 const Home = () => {
   return (
     <div className="Homecontainer">
       <div className="maincontiner">
         <div className="postContainer">
-          <Politics/>
-          <Politics/>
+          {/* <ReactCarousel datafromcarousel={carouselData} /> */}
+          <BusinessAndpolitcis politicData={politicData} />
           <PopularPost />
         </div>
       </div>

@@ -1,19 +1,25 @@
 import React from "react";
-import Images from "../../Images.jpg";
+import Images from "../../Assets/image1.jpg";
 import "./politic.css";
-const Politics = () => {
+const Politics = ({ politicsData = [] }) => {
   return (
     <>
       <div className="politicscontainer">
-        <div className="imagecontainer">
-          <img src={Images} alt="imageload" />
-        </div>
-        <div className="descriptioncontainer">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ipsam
-          dolore! Architecto porro pariatur exercitationem veniam culpa ullam ad
-          odio ab reiciendis, autem at incidunt fugit, assumenda eum consequatur
-          vero.
-        </div>
+        {politicsData.map((each, index) => (
+          <div className="politicsDetailsContainer" key={index}>
+            <figure>
+              <img
+                src={each?.image}
+                alt="imageload"
+                style={{ width: "10em" }}
+              />
+            </figure>
+            <div className="politicDescriptionContainer">
+              <lable style={{ fontWeight: "700" }}>{each?.title}</lable>
+              <p style={{ width: "25em" }}>{each?.description}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </>
   );
