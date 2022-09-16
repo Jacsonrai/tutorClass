@@ -1,0 +1,11 @@
+.politicscontainer{
+    display: flex;
+    width: 50em;
+    
+    padding: 2em;
+    gap: 2em ;
+    /* box-shadow: 50em; */
+}
+.imagecontainer{
+    width: 40em;
+}
