@@ -1,34 +1,22 @@
-import React from 'react'
-import ReactCarousel from '../../Component/Carousel/ReactCarousel';
-import image1 from '../../gallery/image1.jpg'
-import image2 from '../../gallery/image2.jfif'
-const Home=() =>{
+import React from "react";
+import "./home.css";
 
-const data =[
+import PopularPost from "../../Component/PostType/PopularPost";
 
-{
-image:image1,
-imagelabel: "IMAGE 1 ",
-details:"image details here",
-
-},
-
-
-{
-  image: image2,
-  imagelabel: "IMAGE 2",
-  details:"image details here",
-
-  
-  
-  },
-  
-]
-
+import BusinessAndpolitcis from "../../Component/BusinessAndPolitics/BusinessAndpolitcis";
+import { politicData } from "../../DummyData/DummyData";
+const Home = () => {
   return (
+    <div className="Homecontainer">
+      <div className="maincontiner">
+        <div className="postContainer">
+          {/* <ReactCarousel datafromcarousel={carouselData} /> */}
+          <BusinessAndpolitcis politicData={politicData} />
+          <PopularPost />
+        </div>
+      </div>
+    </div>
+  );
+};
 
-
-    <div><ReactCarousel datafromcarousel={data}/></div>
-  )
-}
 export default Home;
