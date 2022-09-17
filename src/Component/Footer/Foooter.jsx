@@ -24,7 +24,7 @@ function Foooter() {
               tabIndex="3"
             />
             <button>
-              <FaTelegramPlane color="white"/>
+              <FaTelegramPlane color="white" />
             </button>
           </div>
         </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import Images from "../../Assets/image1.jpg";
 import "./politic.css";
 const Politics = ({ politicsData = [] }) => {
   return (
