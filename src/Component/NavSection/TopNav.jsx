@@ -22,6 +22,11 @@ const TopNav = () => {
       label: "Health",
       url: "/health",
     },
+    {
+      label: "Contact",
+      url: "/Contact",
+    },
+
   ];
   return (
     <div className="navigator-container">

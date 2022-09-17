@@ -1,0 +1,50 @@
+
+.Main-footerContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    padding: 3em;
+    background-color:#F5F5F5;
+    
+    
+}
+.footerContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+
+}
+.News-container{
+    margin-left: 2em;
+}
+p{
+    display: block;
+    width: 70%;
+}
+.Email-Container{
+    margin-top: 2em;
+    
+    
+
+}
+
+
+
+
+input[type=email]{
+    border: none;
+    border-radius: 2em;
+    padding: 1em;
+    width:25em;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+
+
+}
+button{
+    background-color: black;
+    border-radius: 2em;
+    padding: 0.8em;
+    
+}
+
+
